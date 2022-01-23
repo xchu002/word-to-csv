@@ -22,7 +22,7 @@ header = ['Ranking', 'Title', 'Artist', "Lyrics"]
 for filename in files:
     print(filename)
     txt = filename.split("_")
-    if len(txt) > 2:
+    if ".docx" in filename:
         lyrics = getText(filename)
         ranking = txt[0]       
         title = txt[1]
