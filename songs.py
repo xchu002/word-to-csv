@@ -4,7 +4,7 @@ import csv
 
 '''
 This is the customised version of wordToCSV.py for the song lyrics project. There is a minor bug is that
-for some reason 100>10>1 which might have been some sorting algorithm going on in the background, but its getting late
+for some reason 100<10<1 which might have been some sorting algorithm going on in the background, but its getting late
 so i'm not fixing that. We can easily sort that out in excel.
 '''
 
